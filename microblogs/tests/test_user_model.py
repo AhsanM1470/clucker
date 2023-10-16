@@ -1,5 +1,7 @@
+"""Unit tests of user model."""
+
 from django.test import TestCase
-from .models import User
+from microblogs.models import User
 from django.core.exceptions import ValidationError
 
 # Create your tests here.
